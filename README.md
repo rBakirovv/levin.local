@@ -1,1 +1,1 @@
-[Menu page](https://rbakirovv.github.io/levin.local/menu.html)
+[Страница с меню](https://rbakirovv.github.io/levin.local/menu.html)
