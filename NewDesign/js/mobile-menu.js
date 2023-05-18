@@ -13,16 +13,16 @@ window.addEventListener("DOMContentLoaded", function () {
     menuBackground.classList.toggle("menu-background_active");
 
     if (html.style.overflow === "hidden") {
-      html.style.overflow = "visible";
+      //html.style.overflow = "visible";
       swipeMenu.style.transform = `translateY(150%)`;
     } else {
-      html.style.overflow = "hidden";
+      //html.style.overflow = "hidden";
       swipeMenu.style.transform = `translateY(0)`;
     }
   }
 
   function mobileMenuClose() {
-    html.style.overflow = "visible";
+    //html.style.overflow = "visible";
     mobileMenuButtonService.classList.remove("mobile-menu__button-service_active");
     swipeMenu.classList.remove("swipe-menu_active");
     menuBackground.classList.remove("menu-background_active");
@@ -82,10 +82,12 @@ window.addEventListener("DOMContentLoaded", function () {
       burgerIcon.classList.remove("burger_active");
     }
 
+    /*
     if (html.style.overflow === "hidden") {
       html.style.overflow = "visible";
     } else {
       html.style.overflow = "hidden";
     }
+    */
   })
 })
